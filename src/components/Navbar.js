@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark" style={navbarStyle}>
-    <Link to="/" className="nav-link">  <animated.a className="navbar-brand" style={{ ...nameSpring, paddingLeft: '15px' }}>Your Name</animated.a>  </Link>
+    <animated.a className="navbar-brand" style={{ ...nameSpring, paddingLeft: '15px' }}>Your Name</animated.a> 
       <div className="form-inline" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
